@@ -17,7 +17,9 @@ PyTorch 1.4.0
 
 # Data
 We used 18 YUV files and converted them to 
+
 M2V (MPEG-2), H263, 264, MP4 (HEVC), BIT (IVC), WEBM (VP8), JPG, J2K (JPEG2000), BMP, PNG and TIFF.
+
 The list of video and image files are on ADD_video_set.xlsx in Korean.
 
 # Training
@@ -36,21 +38,35 @@ python test.py
 
 # Options: scenario
 We use the proposed algorithm for classifying the codec of bitstreams encoded with particular scenarios.
+
 When the value, training_scenario is,
+
 0 : training samples not encoded
+
 1 : training samples not encoded and bitwise inversed
+
 2 : training samples not encoded and bitwise xor-d
+
 3 : training samples not encoded, bitwise inversed, bitwise xor-d, endian-swaped every 2 bytes
+
 4 : training samples not encoded and endian-swaped every 2 bytes
+
 When the value, test_scenario is,
+
 0 : test samples not encoded
+
 1 : test samples bitwise inversed
+
 2 : test samples bitwise xor-d
+
 3 : test samples endian-swaped every 2 bytes
+
 
 # Results
 When we tested using data with 3 codecs, MPEG-2, H.263, and H.264, we made the network with accuracy 99.39%.
+
 When we tested using data with all 11 codecs, we made the network with accuracy 96.09%.
+
 96.09% is the accuracy of the [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix).
 
 # Contact
