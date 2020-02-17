@@ -41,7 +41,7 @@ When the value, training_scenario is,
 0 : training samples not encoded  
 1 : training samples not encoded and bitwise inversed  
 2 : training samples not encoded and bitwise xor-d  
-3 : training samples not encoded, bitwise inversed, bitwise xor-d, endian-swaped every 2 bytes  
+3 : training samples not encoded, bitwise inversed, bitwise xor-d and endian-swaped every 2 bytes  
 4 : training samples not encoded and endian-swaped every 2 bytes
 
 When the value, test_scenario is,
