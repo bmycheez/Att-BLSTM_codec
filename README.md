@@ -3,13 +3,13 @@ This is a PyTorch implementation of the JOURNAL OF BROADCAST ENGINEERING paper,
 [Video Compression Standard Prediction using Attention-based Bidirectional LSTM](http://www.kibme.org/resources/journal/20191015155044174.pdf).
 
 If you find our project useful in your research, please consider citing:
-"""
+~~~
 @inproceedings{kim2019codec,
   title={Video Compression Standard Prediction using Attention-based Bidirectional LSTM},
   author={Kim, Sangmin and Park, Bumjun and Jeong, Jechang},
   booktitle={JOURNAL OF BROADCAST ENGINEERING},
   year={2019}
-"""
+~~~
 
 # Dependencies
 Python 3.6
@@ -22,17 +22,17 @@ The list of video and image files are on ADD_video_set.xlsx in Korean.
 
 # Training
 Use the following command to use our training codes
-"""
+~~~
 python main.py
-"""
+~~~
 There are other options you can choose.
 Please refer to utils.py.
 
 # Test
 Use the following command to use our test codes
-"""
+~~~
 python test.py
-"""
+~~~
 The pretrained model Bi-LSTM_96.09.pth is ready.
 96.09% is the accuracy of the [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix).
 
