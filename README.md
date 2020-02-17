@@ -59,3 +59,6 @@ When we tested using data with all 11 codecs, we made the network with accuracy 
 
 # Contact
 If you have any question about the code or paper, feel free to ask me to <ksmh1652@gmail.com>.
+
+# Acknowledgement
+Thank you for [graykode](https://github.com/graykode/nlp-tutorial) who gave the implementaion of Att-BLSTM.
