@@ -33,9 +33,6 @@ Use the following command to use our test codes
 ~~~
 python test.py
 ~~~
-The pretrained model Bi-LSTM_96.09.pth is ready.
-96.09% is the accuracy of the [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix).
-
 
 # Options: scenario
 We use the proposed algorithm for classifying the codec of bitstreams encoded with particular scenarios.
@@ -54,6 +51,7 @@ When the value, test_scenario is,
 # Results
 When we tested using data with 3 codecs, MPEG-2, H.263, and H.264, we made the network with accuracy 99.39%.
 When we tested using data with all 11 codecs, we made the network with accuracy 96.09%.
+96.09% is the accuracy of the [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix).
 
 # Contact
 If you have any question about the code or paper, feel free to ask me to <ksmh1652@gmail.com>.
