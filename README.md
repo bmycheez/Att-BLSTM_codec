@@ -62,3 +62,5 @@ If you have any question about the code or paper, feel free to ask me to <ksmh16
 
 # Acknowledgement
 Thanks for [graykode](https://github.com/graykode/nlp-tutorial) who gave the implementaion of Att-BLSTM.
+
+This work was supported by the research fund of Signal Intelligence Research Center supervised by Defense Acquisition Program Administration and Agency for Defense Development of Korea.
