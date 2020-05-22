@@ -4,11 +4,16 @@ This is a PyTorch implementation of the JOURNAL OF BROADCAST ENGINEERING paper,
 
 If you find our project useful in your research, please consider citing:
 ~~~
-@inproceedings{kim2019codec,
-  title={Video Compression Standard Prediction using Attention-based Bidirectional LSTM},
-  author={Kim, Sangmin and Park, Bumjun and Jeong, Jechang},
-  booktitle={JOURNAL OF BROADCAST ENGINEERING},
-  year={2019}
+@article{kim2019codec,
+    author =       {Kim, Sangmin and Park, Bumjun and Jeong, Jechang},
+    title =        {Video Compression Standard Prediction using Attention-based Bidirectional LSTM},
+    journal =      {JOURNAL OF BROADCAST ENGINEERING},
+    volume =       "24",
+    number =       "5",
+    pages =        "870--878",
+    year =         "2019",
+    DOI =          "https://doi.org/10.5909/JBE.2019.24.5.870"
+}
 ~~~
 
 # Dependencies
