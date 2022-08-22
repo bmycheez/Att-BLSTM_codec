@@ -16,6 +16,8 @@ If you find our project useful in your research, please consider citing:
 }
 ~~~
 
+The patent about this has been registered. [pdf](1020200047234.pdf)
+
 # Dependencies
 Python 3.6  
 PyTorch 1.4.0
