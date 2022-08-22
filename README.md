@@ -56,6 +56,8 @@ When the value, test_scenario is,
 2 : test samples bitwise xor-d  
 3 : test samples endian-swaped every 2 bytes
 
+Another scenario was implemented by [mcthehruj](https://github.com/mcthehruj/dummy).
+
 
 # Results
 When we tested using data with 3 codecs, MPEG-2, H.263, and H.264, we made the network with accuracy 99.39%.  
